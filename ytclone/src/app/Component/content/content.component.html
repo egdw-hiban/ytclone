@@ -1,0 +1,35 @@
+<div class="container">
+    <div class="row">
+      <div class="col-md-8 mt-4">
+        <div class="container rounded" style="height: 400px;">
+            <!-- fetchurl -->
+            <iframe [src]="sanitizer.bypassSecurityTrustResourceUrl(selectedItem.pdfurl)" style="width: 100%; height: 100%; object-fit: contain; background-color: white;"></iframe>
+        </div>
+        <div>
+            <h4 class="mt-4 ms-2">{{selectedItem.title}}</h4>
+            <p class="ms-2">{{selectedItem.description}}</p>
+        </div>
+      </div>
+
+      <div class="col-4" style="max-height: 615px; overflow-y: auto;">
+        <p class="fw-bold mt-4">Documents you might like to read</p>
+        <div class="row shadow">
+
+            @for (item of data; track item) {
+                <div class="col-12 col-md-6 col-lg-12 mb-4" (click)="onClick(item)">
+                    <div class="card d-flex">
+                      <img [src]="sanitizer.bypassSecurityTrustResourceUrl(item.imgurl)" class="card-img-top">
+                      <div class="card-body">
+                        <h5 class="card-title">{{item.title}}</h5>
+                      
+                        <p class="nav-link">Read more</p>
+                        <p class="card-text"><small class="text-muted">08 September</small></p>
+                      </div>
+                    </div>
+                </div>
+            }
+        </div>
+      </div>
+      </div>
+    </div>
+  

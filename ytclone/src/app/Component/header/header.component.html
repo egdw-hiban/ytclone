@@ -9,7 +9,7 @@
                     <div class="offcanvas-header">
             
                       <button type="button" class="btn" data-bs-dismiss="offcanvas"><i class="bi bi-list mt-3 fs-4 mx-1"></i></button>
-                      <img class="ms-2" src="https://th.bing.com/th/id/OIP.sCtdNjphAin-gugu0MNptAAAAA?rs=1&pid=ImgDetMain" alt="" width="100px">
+                      <img class="ms-2" src="https://site.ccsdlanguages.org/images/Article-Images/Docutube.png" alt="" width="100px">
                     </div>
                     <div class="offcanvas-body">
                       <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
@@ -19,11 +19,15 @@
                         </li>
                         <li class="nav-item d-flex">
                             <i class="bi bi-book mt-2 mx-4"></i>
-                          <a class="nav-link" href="#">Shorts</a>
+                          <a class="nav-link" href="#">Recent Reads</a>
                         </li>
                         <li class="nav-item d-flex">
                             <i class="bi bi-coin mt-2 mx-4"></i>
                             <a class="nav-link" href="#">Subscriptions</a>
+                        </li>
+                        <li class="nav-item d-flex">
+                            <i class="bi bi-bookmark mt-2 mx-4"></i>
+                            <a class="nav-link" href="#">Saved Documents</a>
                         </li>
                         <hr>
                         <li class="nav-item d-flex">
@@ -37,7 +41,7 @@
                       </ul>
                     </div>
                   </div>
-                <img class="ms-2" src="https://th.bing.com/th/id/OIP.sCtdNjphAin-gugu0MNptAAAAA?rs=1&pid=ImgDetMain" alt="" width="120px">
+                <img class="ms-2" src="https://site.ccsdlanguages.org/images/Article-Images/Docutube.png" alt="" width="120px">
             </div>
         </div>
         <div class="col col-md-6 d-none d-md-flex align-items-center justify-content-center col-lg-6">
@@ -46,7 +50,26 @@
                 <button class="input-group-text rounded-full"><i class="bi bi-search"></i></button>
             </div>
             <div class="ms-1 mt-3 ms-3">
-                <i class="bi bi-mic-fill"></i>
+                <button id="openModalBtn" class="btn" data-bs-toggle="modal" data-bs-target="#myModal">
+                    <i class="bi bi-mic-fill"></i>
+                </button>
+                <div class="modal" id="myModal" tabindex="-1">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title">Speak Something</h5>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <p>Recording...</p>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                
             </div>
         </div>
         <ul class="col-md-auto d-flex" style="list-style: none;">

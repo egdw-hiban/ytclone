@@ -1,22 +1,39 @@
-{
-    "items":[
+
+[
         {
             "id":1,
-            "title":"Git",
-            "image_url":"",
-            "description":"a"
+            "title":"Product Discovery",
+            "pdfurl":"http://localhost:3000/DocuTube-pdf",
+            "imgurl":"https://images.prismic.io/superpupertest/38b1e49d-80e7-43e5-b92c-4ba4971eb35b_Frame+2541.png?auto=compress,format",
+            "description":"A Product Discovery Document (PDD) is a foundational document in project management and product development that outlines the initial phase of exploring, defining, and refining a product or project idea. This document serves as a roadmap for stakeholders to understand the goals, scope, requirements, and strategies for bringing the product to life. This document gives a comprehensive detail about this document viewing application"
         },
         {
             "id":2,
-            "title":"Git",
-            "image_url":"",
-            "description":"a"
+            "title":"Git cheat sheet by Safa",
+            "pdfurl":"http://localhost:3000/cheat-sheet2-pdf",
+            "imgurl": "https://th.bing.com/th/id/OIP.rCQNpUo9tueWA9q3EFnUDQAAAA?rs=1&pid=ImgDetMain",
+            "description":"This Git cheat sheet is a concise reference guide that provides quick access to commonly used Git commands and workflows. It typically includes essential commands for initializing a Git repository, staging and committing changes, branching and merging, as well as commands for working with remote repositories like pushing and pulling changes. This Cheat sheet is useful for both beginners who are learning Git and experienced users who need a quick reminder of specific commands or workflows."
         },
         {
             "id":3,
-            "title":"Git",
-            "image_url":"",
-            "description":"a"
+            "title":"Article by Himani",
+            "pdfurl":"http://localhost:3000/article1-pdf",
+            "imgurl":"https://content.altexsoft.com/media/2021/03/word-image.png",
+            "description":"RESTful Web Services with Spring Boot is an informative article that guides readers through the process of building RESTful APIs using the Spring Boot framework. It covers the essential concepts and components necessary to develop web services following the REST architectural style."
+        },
+        {
+            "id":4,
+            "title":"Article by Safa",
+            "pdfurl":"http://localhost:3000/article2-pdf",
+            "imgurl":"https://cdn.slidesharecdn.com/ss_thumbnails/2-201215164808-thumbnail.jpg?width=640&height=640&fit=bounds",
+            "description":"The Dependency Injection in Spring article is an informative resource that explains the concept and implementation of dependency injection (DI) within the Spring framework. Dependency injection is a design pattern used to manage object dependencies and promote loose coupling between components in an application."
+        },
+        {
+            "id":5,
+            "title":"Git cheat sheet by Himani",
+            "pdfurl":"http://localhost:3000/cheat-sheet1-pdf",
+            "imgurl": "https://th.bing.com/th/id/OIP.rCQNpUo9tueWA9q3EFnUDQAAAA?rs=1&pid=ImgDetMain",
+            "description":"This Git cheat sheet is a concise reference guide that provides quick access to commonly used Git commands and workflows. It typically includes essential commands for initializing a Git repository, staging and committing changes, branching and merging, as well as commands for working with remote repositories like pushing and pulling changes. This Cheat sheet is useful for both beginners who are learning Git and experienced users who need a quick reminder of specific commands or workflows."
         }
+
     ]
-}
